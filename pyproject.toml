@@ -12,3 +12,22 @@ dependencies = [
     "streamlit-option-menu>=0.4.0",
     "streamlit>=1.39.0",
 ]
+
+[tool.ruff]
+line-length = 79
+lint.select = [
+    "E",
+    "W",
+    "I",
+    "N",
+    "F",
+    "B",
+    "PT",
+    "RET",
+    "SIM",
+    "TID",
+    "ARG",
+    "PTH",
+    "ERA",
+    "PD",
+]
